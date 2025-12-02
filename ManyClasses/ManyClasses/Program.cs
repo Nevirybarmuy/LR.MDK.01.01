@@ -12,11 +12,11 @@ namespace ManyClasses
         {
             Product mers = new Product();
             mers.SetName("Audi");
-            mers.SetPrice(1000000);
+            mers.SetPrice(1234000);
 
             Product yaz = new Product();
             yaz.SetName("Lefan");
-            yaz.SetPrice(10000000);
+            yaz.SetPrice(12345678);
 
             Storage storage = new Storage();
             storage.SetId(123);
@@ -33,18 +33,18 @@ namespace ManyClasses
 
             ReportRow row1 = new ReportRow();
             row1.Product = "ВАУВЕЩИ";
-            row1.Quantity = 500;
-            row1.Price = 100;
+            row1.Quantity = 200;
+            row1.Price = 10;
 
             ReportRow row2 = new ReportRow();
             row2.Product = "ВАУПРОДУКТЫ";
-            row2.Quantity = 100;
-            row2.Price = 5192;
+            row2.Quantity = 300;
+            row2.Price = 3208;
 
             ReportRow row3 = new ReportRow();
             row3.Product = "ВАУВСЁ";
-            row3.Quantity = 70;
-            row3.Price = 412;
+            row3.Quantity = 100;
+            row3.Price = 232;
 
             report.AddRecord(row1);
             report.AddRecord(row2);
