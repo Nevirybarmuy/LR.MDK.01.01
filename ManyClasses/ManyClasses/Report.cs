@@ -33,4 +33,5 @@ namespace ManyClasses
             Console.WriteLine("Сумма  - " + sum);
         }
     }
+
 }

@@ -40,5 +40,6 @@ namespace ManyClasses
             }
             Console.WriteLine(sum);
         }
+
     }
 }

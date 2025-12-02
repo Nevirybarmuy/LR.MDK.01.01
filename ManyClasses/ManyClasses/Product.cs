@@ -26,5 +26,28 @@ namespace ManyClasses
         {
             price_ = price;
         }
+        public class Product1
+        {
+            private string name_;
+            private double price_;
+            public string GetName()
+            {
+                return name_;
+            }
+            public double GetPrice()
+            {
+                return price_;
+            }
+            public void SetName(string name)
+            {
+                name_ = name;
+            }
+            public void SetPrice(double price)
+            {
+                price_ = price;
+            }
+        }
     }
+
 }
+
