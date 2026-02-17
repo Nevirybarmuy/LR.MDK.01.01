@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ModelViewLib.Views
 {
-    public interface IUsersView
+    public interface UsersView
     {
         void ShowUsers(List<User> users);
     }

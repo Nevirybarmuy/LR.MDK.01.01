@@ -16,6 +16,24 @@ namespace ModelViewLib.Models
             users.Add(new User { Login = "fgh", Password = "234", Name = "LubaKoza" });
             users.Add(new User { Login = "Kyrilshik", Password = "567", Name = "TemaSportik" });
         }
+        public List<User> Load()
+        {
+            return allUsers_;
+        }
+        public void Remove(List<User> selectedUsers)
+        {
+            foreach (User u in selectedUsers)
+            {
+                selectedUsers.Remove(u);
+            }
+        }
+        public void RemoveUsers(List<User> users)
+        {
+            foreach (User u in users)
+            {
+                users.Remove(u);
+            }
+        }
         public bool Register(User user)
         {
             int CountLength = users.Count;

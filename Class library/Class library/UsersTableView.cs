@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Class_library
 {
-    class UsersTableView : DataGridView, IUsersView
+    class UsersTableView : DataGridView, UsersView
     {
         public void ShowUsers(List<User> users)
         {

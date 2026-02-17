@@ -12,9 +12,9 @@ namespace ModelViewLib.Presents
     public class UserPresent
     {
         private IUsersModel model_;
-        private IUsersView view_;
+        private UsersView view_;
 
-        public UserPresent(IUsersModel model, IUsersView view)
+        public UserPresent(IUsersModel model, UsersView view)
         {
             model_ = model;
             view_ = view;
