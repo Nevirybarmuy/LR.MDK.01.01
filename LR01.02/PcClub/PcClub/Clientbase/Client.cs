@@ -1,24 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace PcClub
+namespace PcClub.ClientBase
 {
     public class Client
     {
-        public int Id { get; set; }
+        public int Id { get; set; }       
         public string Name { get; set; }
         public string Phone { get; set; }
-
         public Client(int id, string name, string phone)
         {
             Id = id;
             Name = name;
             Phone = phone;
         }
-
         public string GetInfo()
         {
             return $"Клиент: {Name} | Телефон: {Phone}";
