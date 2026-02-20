@@ -13,6 +13,8 @@ namespace PcClub.Computer
         public string Specifications { get; set; }
         public decimal PricePerHour { get; set; }
         public bool IsAvailable { get; set; }
+        public object Specs { get; internal set; }
+        public object Price { get; internal set; }
 
         public Pc(int id, string name, string specs, decimal price)
         {
