@@ -159,7 +159,7 @@ namespace LR_3
                 return;
             }
 
-            string fullOrder = "=== ЗАКАЗ МАТЕРИАЛОВ ===\n\n";
+            string fullOrder = "ЗАКАЗ МАТЕРИАЛОВ\n\n";
             fullOrder += orderText;
             fullOrder += $"\nДата: {DateTime.Now:dd.MM.yyyy HH:mm}";
 
